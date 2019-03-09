@@ -11,3 +11,5 @@ To record activities you need to use fabric canvas and media recorder libraries 
 - **View or download video from video element**
 
 For more you can refer above example.
+
+[You can check full detail about it. you can open our blog](https://github.com/logisticinfotech/laravel-Fabric-js-canvas-drawing-with-recording-video).

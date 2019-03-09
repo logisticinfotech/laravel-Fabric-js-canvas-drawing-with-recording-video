@@ -9,7 +9,7 @@ Steps to create fabric canvas recording
 - **Add media recorder functions to record video**
 - **Create canvas object and refer it for fabric canvas drawing functions**	
 - **Start canvas recording by using below media recorder function**
-
+```
     $(document).on('click', '#recordbtn', function(){	     
         startRecording();
     });
@@ -40,9 +40,9 @@ Steps to create fabric canvas recording
         mediaRecorder.ondataavailable = handleDataAvailable;
         mediaRecorder.start(100); // collect 100ms of data
     }
-
+```
 - **Stop recording and attach recorded video in video element**
-
+```
     $(document).on('click', '#stop_record', function(){
         mediaRecorder.stop();
     });
@@ -64,7 +64,7 @@ Steps to create fabric canvas recording
             recordedBlobs.push(event.data);
         }
     }
-    
+```
 - **View or download video from video element**
 
 For more you can refer above example.

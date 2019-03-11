@@ -69,4 +69,4 @@ Steps to create fabric canvas recording
 
 For more you can refer above example.
 
-[You can check full detail about it. you can open our blog](https://github.com/logisticinfotech/laravel-Fabric-js-canvas-drawing-with-recording-video).
+[You can check full detail about it. you can open our blog](https://www.logisticinfotech.com/blog/canvas-drawing-recording-video/).

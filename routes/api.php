@@ -13,6 +13,7 @@ use Illuminate\Http\Request;
 |
 */
 
+// REDIRECT TO USER
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
